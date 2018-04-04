@@ -1,0 +1,27 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "es2015","stage-3"
+  ],
+  "plugins": [
+    "transform-runtime",
+    "transform-async-to-generator"
+  ],
+  "comments": false,
+  "env": {
+    "test": {
+      "presets": [
+        "env",
+        "es2015"
+      ],
+      "plugins": [
+        "transform-runtime","transform-async-to-generator"
+      ]
+    }
+  }
+}

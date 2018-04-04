@@ -1,0 +1,38 @@
+.operationFont{
+    height:1.5rem;
+    color:#338fff;
+    margin-left:1.25rem;
+    font-size:0.7rem;
+    line-height: 1.5rem;
+}
+.operaction{
+    background: #fff;
+    height:4.3rem;
+}
+.operaction li{
+    width:50%;
+    height:100%;
+    text-align: center;
+}
+.operaction li a{
+    width:50%;
+    display: block;
+    margin: 0.65rem auto 0;
+}
+.sitePreparation li a{
+    display: block;
+    margin: 0.65rem auto 0;
+}
+.operaction li a img,.sitePreparation li a img{
+    height: 2.2rem;
+    width:2.2rem;
+}
+.sitePreparation{
+    background: #fff;
+    height: 8.75rem;
+}
+.sitePreparation li{
+    width:33.33%;
+    height:50%;
+    text-align: center;
+}
